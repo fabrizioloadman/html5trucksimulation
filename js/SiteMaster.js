@@ -55,11 +55,7 @@ function StartSimulation(){
 			StartSimulation();
 		}, 15);
 		$(".BodyBooksAndLocationsWidget0").css('background-image','url(images/'+CurrentImageName+ImageCounter+'.png)');
-			}
-		$(".BodyBooksAndLocationsWidget1").css('background-image','url(images/'+CurrentImageName+ImageCounter+'.png)');
-			}							
-		$(".BodyBooksAndLocationsWidget2").css('background-image','url(images/'+CurrentImageName+ImageCounter+'.png)');
-			}							
+	}
 }
 
 function ReverseSimulation(){
