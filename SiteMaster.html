@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Books & Locations</title>
+    <link type="text/css" rel="stylesheet" href="css/SiteMaster.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+		<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+    <script src="js/SiteMaster.js"></script>
+</head>
+<body>
+	<div class="header">
+  	<nav class="top_navigation">                
+	  	<input id="chkArmWorking" type="checkbox" value="1" checked="checked">
+      <label for="chkArmWorking">Arm Working</label>
+      <input id="chkForkWorking" type="checkbox" value="1" checked="checked">
+      <label for="chkForkWorking">Fork Working</label>
+      <input type="button" id="btnLoadWeight" value="Load weight">
+      <input type="button" id="btnLowTareDown" value="Low Tare down">
+      <input type="button" id="btnRestart" value="Restart">      
+		</div>
+    <input type="hidden" id="MyZindex" value="1"/>
+  </nav>
+  </div>
+  <div class="body">			 			            
+	<div>
+        <div class="BooksAndLocationsWidget" id="widgetDefault">
+            <p class="Widget-header">LOADMAN TRUCK ANIMATION (HTML5/CSS/JS/JQ)</p>
+            <div class="BodyBooksAndLocationsWidget0" id="bodywidgetDefault0"></div>
+            <div class="BodyBooksAndLocationsWidget" id="bodywidgetDefault"></div>
+            <p class="Widget-bottom" onclick="closewidget(this)">CLOSE [X]</p>
+        </div>
+    </div>
+</body>
+</html>
